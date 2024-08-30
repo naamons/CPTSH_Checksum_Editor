@@ -1,6 +1,5 @@
 import streamlit as st
 import crcmod
-import binascii
 
 # Function to calculate CRC-16 checksum for a given data and polynomial
 def calculate_crc16(data, polynomial):
